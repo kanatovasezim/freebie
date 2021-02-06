@@ -1,0 +1,218 @@
+@font-face {
+    font-family: Gilroy;
+    src: url(fonts/Gilroy-Black.woff);
+}
+
+@font-face {
+    font-family: GilroyBold;
+    src: url(fonts/Gilroy-Bold.woff);
+}
+
+p, span {
+    font-family: Gilroy;
+}
+
+.body {
+    background: #FAFAFA;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-around {
+    justify-content: space-around;
+}
+
+.space-evenly {
+    justify-content: space-evenly;
+}
+
+.align-items-center {
+    align-items: center ;
+}
+
+.logo-text {
+    font-family: "Homemade Apple";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 39px;
+    align-items: center;
+    text-align: center;
+}
+.mr-5{
+    margin-right: 5px;
+}
+
+.mr-10{
+    margin-right: 10px;
+}
+.ml-5{
+    margin-left: 5px;
+}
+.pl-5 {
+    padding-left: 5px;
+}
+
+.pl-logo {
+    padding-left: 5%;
+}
+
+.pr-5 {
+    padding-right: 5px;
+}
+
+.px-15 {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.navbar-text {
+    font-family: "Gilroy";
+    font-size: 18px;
+    align-items: center;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.btn {
+    height: 43px;
+    box-sizing: border-box;
+    font-size: 18px;
+    cursor: pointer;
+    width: fit-content;
+
+}
+
+.orange{
+    color: #F7941E;
+}
+
+.btn-primary {
+    border: 1px solid #F7941E;
+    background-color: #F7941E;
+    border-radius: 5px;
+    color: white;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+.btn-body{
+    margin-top: 5%;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.btn-secondary {
+    border: 1px solid #F7941E;
+    background-color: white;
+    border-radius: 5px;
+    color: #F7941E;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+.btn-secondary:hover {
+    background-color: #F7941E;
+}
+
+.container {
+    flex-flow: row wrap;
+}
+
+.container .item {
+    width: 50%;
+}
+
+.item img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+}
+
+.items {
+    margin-right: 15px;
+    margin-left: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.box{
+    width: 80%;
+    background-color: black;
+}
+
+.box .img {
+    width: 30%;
+}
+
+.white-text{
+    color: white;
+}
+
+.align-content-between{
+    align-content: space-between;
+}
+
+.small-box{
+    margin: 5%;
+    width: 35%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.small-box .text{
+    padding-top: 3%;
+    padding-left: 5%;
+}
+
+.footer{
+    background: #FAFAFA;
+}
+
+.bold{
+    font-weight: bolder;
+}
+
+.divider{
+    height: 2px;
+    background-color: black;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.align-self-end{
+    align-self: end;
+}
+
+.circle {
+    height: 40px;
+    width: 40px;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.icons{
+    width: 30%;
+    padding-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.span .i{
+    margin: 3px;
+}
+
+.textBold{
+    size: 24px;
+    font-family: GilroyBold;
+}
